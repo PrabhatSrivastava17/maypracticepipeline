@@ -42,6 +42,6 @@ steps:
     provider: 'azurerm'
     command: 'apply'
     workingDirectory: '$(System.DefaultWorkingDirectory)/'
-    commandOptions: 'terraform apply -auto-approve'
+    commandOptions:  '-auto-approve'
     environmentServiceNameAzureRM: 'prabhatserviceconnection'
     environmentAzureRmOverrideSubscriptionID: 'fc890557-6a78-4e91-9eac-5aff85b5fc09'
