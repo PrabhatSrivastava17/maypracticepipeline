@@ -2,7 +2,7 @@ name: prabhatpipeline
 
 trigger: none
 
-pool:prabhatpool
+pool: prabhatpool
 
 steps: 
 - task: TerraformInstaller@1
